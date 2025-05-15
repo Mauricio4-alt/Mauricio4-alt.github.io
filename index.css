@@ -1,0 +1,81 @@
+body{
+    background-color: #000;
+}
+header
+{
+    color: aqua;
+    box-sizing: border-box;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    padding: 30px 1px;
+    text-align: center;
+    align-content: center;
+    
+}
+h1
+{
+    text-align: center;
+    align-content: center;
+
+}
+h2
+{
+    text-align: center;
+    align-content: center;
+    color:aqua;
+}
+.seccion
+{
+    color: #fff;
+    width: 100%;
+    margin: auto ;
+    border: 1px solid aqua;
+    
+}
+h3{
+    text-align: center;
+}
+
+#habilidades
+{
+    display: none;
+}
+
+#tecnologias
+{
+    display: none;
+    
+
+}
+#experiencia
+{
+    display: none;
+}
+button
+{
+    border-radius: 15px ;
+    border-color: #f00;
+    background-color: #000;
+    color: #0AA;
+}
+#fondo
+{
+    max-width: 800px;
+    min-width: 300px;
+    padding-left: 94%;
+}
+
+footer
+{
+    padding: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.contacto
+{
+    width: 40px;
+    height: 40px;
+    
+}
