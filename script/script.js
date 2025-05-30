@@ -3,7 +3,7 @@ let $ = id => document.getElementById(id)
 function habilitarPerfil()
 {
     let sectionPerfil = $('perfil')
-    sectionPerfil.style.display ='block'
+    sectionPerfil.style.display ='flex'
 
     let sectionHabilidades = $('habilidades')
     sectionHabilidades.style.display = 'none'
@@ -23,8 +23,11 @@ function habilitarHabilidades()
     sectionPerfil.style.display ='none'
     
     let sectionHabilidades = $('habilidades')
-    sectionHabilidades.style.display = 'block'
-    
+    sectionHabilidades.style.display = 'flex'
+    sectionHabilidades.style.display ='flex'
+    sectionHabilidades.style.alignItems ='flex-start'
+    sectionHabilidades.style.justifyContent ='center'
+    sectionHabilidades.style.gap ='55px'
     let sectionTecnologias = $('tecnologias')
     sectionTecnologias.style.display ='none'
     let sectionExperiencia = $('experiencia')
@@ -41,7 +44,11 @@ function habilitarTecnologias()
     sectionHabilidades.style.display = 'none'
     
     let sectionTecnologias = $('tecnologias')
-    sectionTecnologias.style.display ='block'
+    sectionTecnologias.style.display ='flex'
+    sectionTecnologias.style.alignItems ='flex-start'
+    sectionTecnologias.style.justifyContent ='center'
+    sectionTecnologias.style.gap ='55px'
+    
     
     let sectionExperiencia = $('experiencia')
     sectionExperiencia.style.display ='none'
@@ -59,7 +66,10 @@ function habilitarExperiencia()
     sectionTecnologias.style.display ='none'
     
     let sectionExperiencia = $('experiencia')
-    sectionExperiencia.style.display ='block'
+    sectionExperiencia.style.display ='flex'
+    sectionExperiencia.style.flexDirection ='column'
+    sectionExperiencia.style.alignItems ='center'
+
 
 }
 

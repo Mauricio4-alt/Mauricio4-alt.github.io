@@ -1,9 +1,15 @@
 body{
-    background-color: #000;
+    background-color: #3A59D1;
+    color: #3D90D7;
 }
+div
+{
+    display: inline;
+}
+
 header
 {
-    color: aqua;
+    
     box-sizing: border-box;
     max-width: 1000px;
     min-width: 300px;
@@ -23,16 +29,10 @@ h2
 {
     text-align: center;
     align-content: center;
-    color:aqua;
-}
-.seccion
-{
-    color: #fff;
-    width: 100%;
-    margin: auto ;
-    border: 1px solid aqua;
     
 }
+
+
 h3{
     text-align: center;
 }
@@ -46,7 +46,7 @@ h3{
 {
     display: none;
     
-
+    
 }
 #experiencia
 {
@@ -54,16 +54,38 @@ h3{
 }
 button
 {
-    border-radius: 15px ;
-    border-color: #f00;
-    background-color: #000;
-    color: #0AA;
+    border-radius: 20px;
+    background-color: #7AC6D2;
+    color: #3A59D1;
 }
+
 #fondo
 {
     max-width: 800px;
     min-width: 300px;
     padding-left: 94%;
+}
+
+
+.contacto
+{
+    width: 40px;
+    height: 40px;
+    
+}
+.seccion
+{
+    color: #3D90D7;
+    width: 100%;
+    margin: auto ;
+    
+    border: 1px solid #B5FCCD;
+}
+article
+{
+    display:inline-block;
+    
+    
 }
 
 footer
@@ -72,10 +94,4 @@ footer
     align-items: center;
     align-content: center;
     text-align: center;
-}
-.contacto
-{
-    width: 40px;
-    height: 40px;
-    
 }
