@@ -2,11 +2,6 @@ body{
     background-color: #3A59D1;
     color: #3D90D7;
 }
-div
-{
-    display: inline;
-}
-
 header
 {
     
@@ -19,6 +14,11 @@ header
     align-content: center;
     
 }
+div
+{
+    display: inline;
+}
+
 h1
 {
     text-align: center;
