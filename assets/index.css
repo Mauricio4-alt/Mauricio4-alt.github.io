@@ -1,13 +1,13 @@
 /* ======== Variables globales ======== */
 :root {
-    --color-fondo: #C5C7BC;
-    --color-principal: #B6AE9F;
-    --color-secundario: #91ADC8;
-    --color-texto: #333;
-    --color-borde: #FBF3D1;
-    --color-acento: #86B0BD;
-    --fuente-principal: 'Poppins', sans-serif;
+    --color-principal: #5b2be0;   /* Violeta eléctrico */
+    --color-secundario: #333333;  /* Gris oscuro neutro */
+    --color-fondo: #f3f6ff;       /* Fondo claro con matiz azulado */
+    --color-acento: #ff7b00;      /* Naranja vibrante */
+    --color-borde: #c5c8f7;       /* Borde suave violeta */
+    --color-caja: #ffffff;        /* Fondo de las tarjetas */
 }
+
 
 /* ======== Reset / Normalización ======== */
 * {
