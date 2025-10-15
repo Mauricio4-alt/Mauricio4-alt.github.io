@@ -1,0 +1,175 @@
+/* ======== Variables globales ======== */
+:root {
+    --color-fondo: #C5C7BC;
+    --color-principal: #B6AE9F;
+    --color-secundario: #91ADC8;
+    --color-texto: #333;
+    --color-borde: #FBF3D1;
+    --color-acento: #86B0BD;
+    --fuente-principal: 'Poppins', sans-serif;
+}
+
+/* ======== Reset / Normalización ======== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ======== General ======== */
+body {
+    background-color: var(--color-fondo);
+    font-family: var(--fuente-principal);
+    color: var(--color-texto);
+    line-height: 1.6;
+}
+
+/* ======== Títulos ======== */
+h1, h2, h3 {
+    text-align: center;
+    color: var(--color-principal);
+}
+
+/* ======== Header ======== */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    border: 1.5px solid var(--color-borde);
+    background-color: #eceae0;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ======== Navegación ======== */
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--color-secundario);
+    font-weight: 600;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--color-acento);
+    transform: scale(1.05);
+}
+
+/* ======== Sección Perfil ======== */
+#perfil {
+    color: var(--color-acento);
+    text-align: center;
+    width: 96vw;
+    
+    padding: 3rem 1rem;
+}
+
+#perfil img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid var(--color-borde);
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+#perfil p{
+    text-align: center;
+}
+#perfil p strong {
+    
+    text-decoration: underline;
+}
+
+/* ======== Sección Tecnologías ======== */
+#tecnologias {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#tecnologias h2 {
+    margin-bottom: 2rem;
+    color: var(--color-principal);
+}
+
+
+#tecnologias > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+    align-items: start;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Cajas individuales */
+.Lenguajes-librerias {
+    background-color: #eceae0;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Lenguajes-librerias:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+
+.Lenguajes-librerias h3 {
+    color: var(--color-principal);
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--color-borde);
+    padding-bottom: 0.5rem;
+}
+
+
+.Lenguajes-librerias p {
+    color: var(--color-secundario);
+    text-align: center;
+    font-weight: 500;
+    margin: 0.4rem 0;
+}
+
+
+/*=========Proyectos==============*/
+#proyectos{
+    text-align: center;
+    color: var(--color-secundario);
+
+}
+#proyectos p strong a{
+    color: var(--color-secundario);
+}
+
+/* Seccion contactos */
+
+#contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin:5px;
+    color: var(--color-texto);
+    
+}
+
+/* ======== Footer ======== */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eceae0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}

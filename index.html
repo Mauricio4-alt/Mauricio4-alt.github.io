@@ -1,116 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
-    <script src="./script/script.js"></script>
+    <link rel="stylesheet" href="assets/index.css">
+    <title>Mauricioj-alt.dev | Portafolio</title>
 </head>
 <body>
-    <section id="fondo">
-        <!-- <button id="boton-fondo" >Diurno</button> -->
-    </section>
+
     <header>
-        <h1>MAURICIO URDANETA</h1>
-        <h2>Software Programer</h2>
+        <h1>Mauricioj-alt.dev</h1>
+
         <nav>
-            <button id="boton-perfil">Perfil</button>
-            <button id="boton-habilidades">Habilidades</button>
-            <button id="boton-tecnologias">Tecnologias</button>
-            <button id="boton-experiencia">Experiencia</button>
-            <!-- <button id="boton-proyectos">Proyectos</button> -->
+            <ul>
+                <li><a href="#perfil">Sobre mí</a></li>
+                <li><a href="#tecnologias">Tecnologías</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
         </nav>
-        
     </header>
-    
-    <section id="perfil" class="seccion">
-        <div>
-        <h2>PERFIL OCUPACIONAL</h2>
+
+    <main>
+        <section id="perfil">
+            <img src="static/foto.png" alt="Foto de Mauricio Urdaneta" >
+            <h2>Sobre mí</h2>
             <p>
-                Técnico en Programación de Software con interés ocupacional
-                en el desarrollo web. Poseo conocimientos en lenguajes como
-                Python y JavaScript, y experiencia utilizando frameworks como
-                React (frontend) y Flask (backend).
-                Me destaco por mi capacidad de adaptación a diferentes
-                entornos y equipos de trabajo, así como por una marcada
-                curiosidad para investigar y una fuerte determinación para
-                asumir nuevos retos.
+                Soy técnico en programación de software y actualmente curso el tecnólogo en Análisis y Desarrollo de Software. <br>
+                Tengo formación en tecnologías como <strong>Python</strong>, <strong>JavaScript</strong> y <strong>Java</strong>; 
+                manejo frameworks como <strong>Flask</strong>, <strong>Express</strong> y <strong>Spring Boot</strong>. <br>
+                Cuento con un año de experiencia programando tanto en empresa como en proyectos personales. 
+                Soy una persona proactiva, creativa, con buena capacidad de resolución de problemas y una gran curiosidad por aprender cosas nuevas.
             </p>
-        </div>
-    </section>
-    
-    <section id="habilidades" class="seccion">
-        <article>
-            <h2>Blandas</h2>
-            <ul>
-                <li>Atencion al detalle</li>
-                <li>Pensamiento crítico</li>
-                <li>Resolucion de conflictos</li>
-                <li>Seguimiento de instrucciones</li>
-            </ul>
-        </article>
-            <article>
-            <h2>Tecnicas</h2>
-            <ul>
-                <li>Pensamiento Lógico </li>
-                <li>Pensamiento Matemático</li>
-                <li>Abstraccion de codigo</li>
-                <li>Pensamiento Computacional</li>
-                
-            </ul>
-            </article>
-    </section>
-    <section id="tecnologias" class="seccion">
-        <div>
-        <h2>Lenguajes</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>Python</li>
-            </ul>
-        </div>
-        <div>
-            <h2>Frameworks</h2>
-            <ul>
-                <li>FLASK</li>
-                <li>EXPRESS</li>
-                <li>REACT</li>
-            </ul>
-        </div>
-    </section>
-    
-    <section id="experiencia" class="seccion">
-        <div>
-            <h2>Experiencia laboral</h2>
-            <h3>Casa Limpia S.A.S</h3>
-            <p>
-                Colaboré en el desarrollo de formularios web y
-                en la integración de servicios mediante el
-                consumo de APIs. También brindé apoyo en la
-                creación de pequeños archivos de configuración
-                para diferentes proyectos. Durante este periodo,
-                aprendí a implementar reconocimiento óptico de
-                caracteres (OCR) y a utilizar expresiones
-                regulares para el análisis de documentos.
-                Además, presté apoyo al área de Talento
-                Humano realizando diversas tareas
-                administrativas.
-            </p>
-        </div>
-    </section>
-    
-        
+        </section>
+
+        <!-- Secciones preparadas para futuras ampliaciones -->
+        <section id="tecnologias">
+            <h2>Tecnologías</h2>
+            <div>
+                <div class="Lenguajes-librerias">
+                        <h3>Lenguajes</h3>
+                        <p>Python</p>
+                        <p>JavaScript</p>
+                        <p>Java</p>
+                </div>
+                <div class="Lenguajes-librerias">
+                    <h3>Librerias</h3>
+                        <p>Flask</p>
+                        <p>Express</p>
+                        <p>Spring Boot</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+            <p><strong><a href="">Mokepon</a>:</strong> un pequeño videojuego online al estilo pokemon <strong> (En proceso) </strong></p>
+            <p><strong><a href="">Api para gestor de inventario</a>:</strong>una pequeña api rest que permite una comunicación de crud completa con una base de datos </p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p> Puedes contactarme al correo mauriurdaneta20@gmail.com</p>
+            <p> Numero Telefónico: 3102728720</p>
+        </section>
+    </main>
+
     <footer>
-        <h2>Contacto</h2>
-        <p>Haz click en alguno de los siguientes iconos para contactarme</p>
-        <a href="https://github.com/Mauricio4-alt" target="_blank"> <img src="./images/github.jpg" alt="image" class="contacto"></a>
-        <a href="https://www.linkedin.com/in/mauricio-urdaneta-aaa557196/" target="_blank"> <img src="./images/linkedin.df3dbdf7-e6b9-4d2a-a5ad-3b91e430d172" alt="image" class="contacto"></a>
-        <a href="https://wa.me/573102728720" target="_blank"> <img src="images\WhatsApp.png" alt="WhatsApp" class="contacto"></a>
-        
+        <p>&copy; 2025 Mauricioj-alt.dev. Todos los derechos reservados.</p>
     </footer>
-        
-        
+
 </body>
 </html>
