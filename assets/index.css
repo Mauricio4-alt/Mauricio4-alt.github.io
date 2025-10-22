@@ -1,15 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 /* ======== Variables globales ======== */
 :root {
-    --color-principal: #5b2be0;   /* Violeta eléctrico */
-    --color-secundario: #2b2b2b;  /* Gris oscuro neutro */
-    --color-fondo: #f5f7ff;       /* Fondo claro con matiz azulado */
-    --color-acento: #ff7b00;      /* Naranja vibrante */
-    --color-borde: #c7c9f8;       /* Borde suave violeta */
-    --color-caja: #ffffff;        /* Fondo de las tarjetas */
-    --color-texto: #444444;       /* Texto general */
-
-    --fuente-principal: 'Poppins', sans-serif;
+  --color-principal: #6C63FF; /* Violeta vibrante */
+  --color-secundario: #1E1E2E; /* Azul oscuro */
+  --color-fondo: #F4F6FC; /* Fondo claro azulado */
+  --color-acento: #FF9800; /* Naranja brillante */
+  --color-borde: #D1D5FF;
+  --color-caja: #FFFFFF;
 }
+
 
 /* ======== Reset / Normalización ======== */
 * {
@@ -209,4 +209,20 @@ footer {
     font-size: 0.9rem;
     margin-top: 2rem;
     border-top: 1px solid var(--color-borde);
+}
+
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #tecnologias > div {
+    grid-template-columns: 1fr;
+  }
+
+  #perfil img {
+    width: 150px;
+    height: 150px;
+  }
 }

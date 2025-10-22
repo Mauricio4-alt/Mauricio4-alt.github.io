@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio de Mauricio Urdaneta, desarrollador de software especializado en Python y JavaScript">
+
     <link rel="stylesheet" href="assets/index.css">
     <title>Mauricioj-alt.dev | Portafolio</title>
 </head>
@@ -11,24 +14,25 @@
     <header>
         <h1>Mauricioj-alt.dev</h1>
 
-        <nav>
-            <ul>
-                <li><a href="#perfil">Sobre mí</a></li>
-                <li><a href="#tecnologias">Tecnologías</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-                <li><a href="#proyectos">Proyectos</a></li>
-            </ul>
-        </nav>
+       <nav>
+    <ul>
+        <li><a href="#perfil">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
     </header>
 
     <main>
         <section id="perfil">
-            <img src="static/foto.png" alt="Foto de Mauricio Urdaneta" >
+            <img src="assets/foto.jpeg" alt="Foto de Mauricio Urdaneta" >
             <h2>Sobre mí</h2>
             <p>
                 Soy técnico en programación de software y actualmente curso el tecnólogo en Análisis y Desarrollo de Software. <br>
-                Tengo formación en tecnologías como <strong>Python</strong>, <strong>JavaScript</strong> y <strong>Java</strong>; 
-                manejo frameworks como <strong>Flask</strong>, <strong>Express</strong> y <strong>Spring Boot</strong>. <br>
+                Tengo formación en tecnologías como <strong>Python</strong>, <strong>JavaScript</strong> ; 
+                manejo frameworks como <strong>Flask</strong> y <strong>Express</strong>  
                 Cuento con un año de experiencia programando tanto en empresa como en proyectos personales. 
                 Soy una persona proactiva, creativa, con buena capacidad de resolución de problemas y una gran curiosidad por aprender cosas nuevas.
             </p>
@@ -42,21 +46,31 @@
                         <h3>Lenguajes</h3>
                         <p>Python</p>
                         <p>JavaScript</p>
-                        <p>Java</p>
+                        
                 </div>
                 <div class="Lenguajes-librerias">
                     <h3>Librerias</h3>
                         <p>Flask</p>
                         <p>Express</p>
-                        <p>Spring Boot</p>
                 </div>
+                        
             </div>
         </section>
 
         <section id="proyectos">
-            <h2>Proyectos</h2>
-            <p><strong><a href="">Mokepon</a>:</strong> un pequeño videojuego online al estilo pokemon <strong> (En proceso) </strong></p>
-            <p><strong><a href="">Api para gestor de inventario</a>:</strong>una pequeña api rest que permite una comunicación de crud completa con una base de datos </p>
+            <h2>Proyectos Destacados</h2>
+            <div class="grid-proyectos">
+                <article class="proyecto">
+                <h3>Gestor de inventario</h3>
+                <p>aplicación básica para gestionar los productos de la base de datos de tienda online</p>
+                <a href="https://github.com/Mauricio4-alt/Fallabella_project" target="_blank">Ver en GitHub</a>
+                </article>
+                <article class="proyecto">
+                <h3>Mini Juego JS</h3>
+                <p>Juego interactivo hecho con JavaScript puro y Canvas.</p>
+                <a href="https://mauricio4-alt.github.io/mokepon/mokepon.html" target="_blank">Ver Demo</a>
+                </article>
+            </div>
         </section>
 
         <section id="contacto">
